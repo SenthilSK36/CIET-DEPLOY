@@ -3,42 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Webpage</title>
+    <title>My AWS Deployment Project</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        header {
-            background: #0073e6;
-            color: #fff;
-            padding: 10px 20px;
+            background: #eef2f7;
             text-align: center;
+            padding: 60px 20px;
         }
-        main {
-            background: #fff;
-            padding: 20px;
-            margin-top: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        .card {
+            max-width: 650px;
+            margin: auto;
+            padding: 35px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px #0002;
         }
+        h1 { color: #1565c0; }
     </style>
 </head>
 <body>
-
-    <header>
-        <h1>Welcome to My Webpage</h1>
-    </header>
-
-    <main>
-        <h2>Hello, World!</h2>
-        <p>This is a basic template containing structured HTML content and inline CSS styling.</p>
-        <p>You can save this code in a text file named <code>index.html</code> and open it directly in any modern web browser to view your page.</p>
-    </main>
-
+    <div class="card">
+        <h1>Hello from AWS EC2!</h1>
+        <p>This website is deployed automatically.</p>
+        <p>GitHub + CodePipeline + CodeDeploy</p>
+        <p>Version: 1.0</p>
+    </div>
 </body>
 </html>
